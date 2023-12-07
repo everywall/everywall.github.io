@@ -4,19 +4,19 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Ladder',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'If there is a will, bring your own ladder',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://everywall.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/website/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'everywall', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'ladder', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -61,7 +61,7 @@ const config: Config = {
     navbar: {
       title: 'Ladder',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Ladder Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -95,10 +95,6 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
@@ -117,12 +113,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/everywall/ladder',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}, MIT License. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
