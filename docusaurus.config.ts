@@ -41,6 +41,7 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        /*
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -48,6 +49,7 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        */
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -62,16 +64,16 @@ const config: Config = {
       title: 'Ladder',
       logo: {
         alt: 'Ladder Logo',
-        src: 'img/logo.svg',
+        src: 'img/pigeon.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -97,10 +99,6 @@ const config: Config = {
             {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
