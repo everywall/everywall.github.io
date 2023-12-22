@@ -10,6 +10,6 @@ If your instance will be publicly accessible, make sure to enable Basic Auth. Th
 
 :::
 
-1. Download binary [here](https://github.com/everywall/ladder/releases/latest)
+1. Download the binary for your OS [here](https://github.com/everywall/ladder/releases/latest)
 2. Unpack and run the binary `./ladder -r https://t.ly/14PSf`
 3. Open Browser (Default: http://localhost:8080)

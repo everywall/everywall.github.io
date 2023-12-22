@@ -98,6 +98,10 @@ const config: Config = {
               label: "Quick Start",
               to: "/docs/overview/quick-start",
             },
+            {
+              label: "Contribute",
+              to: "/docs/developer/contribute",
+            },
           ],
         },
         {

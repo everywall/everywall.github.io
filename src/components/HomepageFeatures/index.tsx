@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
-    Svg: require("@site/static/img/pigeon.svg").default,
+    title: "Bypass paywalls with ease",
+    Svg: require("@site/static/img/brick-wall.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Use the Ladder ruleset, or add your own, to apply custom rules to bypass
+        paywalls.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
-    Svg: require("@site/static/img/pigeon.svg").default,
+    title: "Self-host your own proxy",
+    Svg: require("@site/static/img/waypoints.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Host Ladder with Docker or Kubernetes, or run Ladder as a Mac OS,
+        Windows or Linux binary.
       </>
     ),
   },
   {
-    title: "Powered by React",
-    Svg: require("@site/static/img/pigeon.svg").default,
+    title: "Custom browsing experience",
+    Svg: require("@site/static/img/puzzle.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Apply request and response modifiers to customize how you interact with
+        the web.
       </>
     ),
   },
@@ -48,7 +48,7 @@ function Feature({ title, Svg, description }: FeatureItem) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h2">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>

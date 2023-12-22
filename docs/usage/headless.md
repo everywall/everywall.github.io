@@ -1,8 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Headless
+
+Ladder is also a great tool for webscraping tasks, and provides several endpoints for various webscraping needs.
 
 ## Outline
 
@@ -10,24 +12,24 @@ sidebar_position: 3
 curl -X GET "http://localhost:8080/outline/https://www.example.com"
 ```
 
-## API
+## Content
 
 ```bash
 curl -X GET "http://localhost:8080/api/content/https://www.example.com"
 ```
 
-## RAW
+## Raw
 
 http://localhost:8080/api/raw/https://www.example.com
 
-## Running Ruleset
+## Running ruleset
 
 http://localhost:8080/api/ruleset
 
-## Running Rule
+## Running rule
 
 http://localhost:8080/api/ruleset/https://example.com
 
-## List available modifiers
+## List all modifiers
 
 http://localhost:8080/api/modifiers

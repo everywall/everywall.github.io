@@ -32,5 +32,5 @@ Other environment variables can be updated as to your preferences, with details 
 ## Docker run
 
 ```bash
-docker run -p 8080:8080 -d --env RULESET=https://t.ly/14PSf --name ladder ghcr.io/everywall/ladder:latest
+docker run -p 8080:8080 -d --env RULESET=https://t.ly/DA3n6 --name ladder ghcr.io/everywall/ladder:latest
 ```
