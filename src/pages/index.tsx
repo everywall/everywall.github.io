@@ -2,7 +2,9 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
+
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -33,19 +35,15 @@ function HomepageHeader() {
   );
 }
 
-function HomePageBody() {
-  return <p className="text--center">INSERT SCREENSHOT OF LADDER</p>;
-}
-
 export default function Home(): JSX.Element {
   return (
     <Layout
       title="Home"
-      description="Description will go into a meta tag in <head />"
+      description="Ladder self-hosted web proxy to help bypass paywalls"
     >
       <HomepageHeader />
       <main>
-        <HomePageBody />
+        <HomepageFeatures />
       </main>
     </Layout>
   );
