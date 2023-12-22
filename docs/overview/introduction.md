@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Introduction
 
-<p align="center"><img src="/img/pigeon.svg" width='200px' /></p>
+<p align="center"><img src="/img/pigeon.svg" width='200px' alt="Ladder pigeon logo" /></p>
+
+## Welcome!
 
 _Ladder is a web proxy to help bypass paywalls._ This is a selfhosted version of [1ft.io](https://1ft.io) and [12ft.io](https://12ft.io). It is inspired by [13ft](https://github.com/wasi-master/13ft).
 

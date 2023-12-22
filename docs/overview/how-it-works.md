@@ -1,8 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # How it works
+
+Ladder applies a series of request and response modifications when proxying a site:
 
 ```mermaid
 sequenceDiagram
@@ -13,3 +15,5 @@ sequenceDiagram
     ladder-->>ladder: apply ResultModifications
     ladder->>-client: 200 OK
 ```
+
+See [Modifiers](/docs/category/modifiers/) for more details on the request and response modifiers available in Ladder.

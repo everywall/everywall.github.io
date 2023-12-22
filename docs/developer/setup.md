@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Developer
+# Setup
 
 To run a development server at http://localhost:8080:
 
@@ -14,7 +14,7 @@ echo "dev  " > cmd/VERSION
 RULESET="./ruleset.yaml" go run cmd/main.go
 ```
 
-## Optional: Live reloading development server with [cosmtrek/air](https://github.com/cosmtrek/air)
+### Optional: Live reloading development server with [cosmtrek/air](https://github.com/cosmtrek/air)
 
 Install air according to the [installation instructions](https://github.com/cosmtrek/air#installation).
 
