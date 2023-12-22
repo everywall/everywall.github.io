@@ -2,9 +2,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
-
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -12,6 +10,12 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--dark", styles.heroBanner)}>
       <div className="container">
+        <img
+          src="/img/pigeon.svg"
+          className="hero__logo"
+          width={200}
+          alt="Ladder pigeon logo"
+        />
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -19,9 +23,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/overview/introduction"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            Get started
           </Link>
         </div>
       </div>
@@ -29,16 +33,19 @@ function HomepageHeader() {
   );
 }
 
+function HomePageBody() {
+  return <p className="text--center">INSERT SCREENSHOT OF LADDER</p>;
+}
+
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title="Home"
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomePageBody />
       </main>
     </Layout>
   );
