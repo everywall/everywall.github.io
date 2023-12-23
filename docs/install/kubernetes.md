@@ -18,7 +18,7 @@ You can deploy Ladder on Kubernetes using the [Helm chart](https://github.com/ev
 
 Edit the values to your own preferences, with the only minimum requirement being `ingress.HOST` (line 19) being updated to your intended domain name.
 
-Other variables in `values.yaml` can be updated as to your preferences, with details on each variable listed in [Environment variables](environment-variables.md).
+Other variables in `values.yaml` can be updated as to your preferences, with details on each variable listed in [environment variables](environment-variables.md).
 
 ### Defaults in Kubernetes
 

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Outline
 
-Select "Outline" from the Ladder homepage for an outlined version of the site. Alternatively, visit a site directly by appending the URL to the end of the Ladder URL:
+Select "Outline" from the Ladder homepage for an outlined version of the site. Alternatively, visit a site directly by appending the URL to the end of the Ladder URL outline path:
 
 > Default: http://localhost:8080/outline/https://www.example.com
 

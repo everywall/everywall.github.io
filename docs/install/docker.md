@@ -27,7 +27,7 @@ services:
       - "8080:8080"
 ```
 
-Other environment variables can be updated as to your preferences, with details on each variable listed in [Environment variables](environment-variables.md).
+Other environment variables can be updated as to your preferences, with details on each variable listed in [environment variables](environment-variables.md).
 
 ## Docker run
 

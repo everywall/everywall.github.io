@@ -16,4 +16,4 @@ sequenceDiagram
     ladder->>-client: 200 OK
 ```
 
-See [Modifiers](/docs/category/modifiers/) for more details on the request and response modifiers available in Ladder.
+See [modifiers](/docs/category/modifiers/) for more details on the request and response modifiers available in Ladder.
